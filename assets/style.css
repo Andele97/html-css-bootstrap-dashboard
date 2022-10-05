@@ -42,25 +42,24 @@ main .container-fluid {
   font-size: 1.3em;
 }
 
-.aside .menu-left {
-  height: calc(100vh - 190px);
+.aside .row {
+  height: calc(100vh - 200px);
 }
 
 /* Menu */
 .menu {
-  height: 120px;
-  background-color: aqua;
+  background-color: #1A73E8;
   padding: 20px;
 }
 
-.menu .container-fluid {
-  background-color: yellow;
-  height: 80px;
+.menu h1 {
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
 }
-
+/* Content */
 .ap-container {
   height: calc(100vh - 102px);
   width: 100%;
   overflow: scroll; 
 }
-/* Content */
