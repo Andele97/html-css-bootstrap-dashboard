@@ -1,3 +1,10 @@
+/* GENERAL */
+
+[class^='col'] {
+  background-color: green;
+  min-height: 50px;
+  border: 1px solid;
+}
 header {
   height: 70px;
   background-color: red;
@@ -8,10 +15,27 @@ header {
   width: 160px;
   background-color: blue;
   float: left;
+  position: fixed
 }
 
 main {
   height: calc(100vh - 70px);
-  background-color: rosybrown;
+  display: flex;
+  justify-content: flex-end;
   overflow: scroll;
+  background-color: rosybrown;
+}
+
+/* MAIN */
+
+.menu {
+  width: calc(100vw - 160px);
+  height: 120px;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.menu .container-fluid {
+  background-color: yellow;
+  height: 80px;
 }
