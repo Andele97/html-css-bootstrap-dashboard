@@ -57,6 +57,11 @@ main .container-fluid {
   color: white;
   font-weight: bold;
 }
+
+.menu p {
+  font-size: 1.3em;
+  color: white;
+}
 /* Content */
 .ap-container {
   height: calc(100vh - 102px);
