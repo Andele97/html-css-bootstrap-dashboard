@@ -1,0 +1,17 @@
+header {
+  height: 70px;
+  background-color: red;
+}
+
+.aside {
+  height: 100%;
+  width: 160px;
+  background-color: blue;
+  float: left;
+}
+
+main {
+  height: calc(100vh - 70px);
+  background-color: rosybrown;
+  overflow: scroll;
+}
