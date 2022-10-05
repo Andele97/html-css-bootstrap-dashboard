@@ -5,36 +5,46 @@
   min-height: 50px;
   border: 1px solid;
 }
-header {
-  height: 70px;
-  background-color: red;
-}
 
-.aside {
-  height: 100%;
-  width: 10%;
-  min-width: 30px;
-  background-color: blue;
-  float: left;
-  position: fixed;
+header {
+  padding: 20px;
 }
 
 main {
-  height: calc(100vh - 70px);
-  overflow: scroll;
-  background-color: rosybrown;
-  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* MAIN */
+main .container-fluid {
+  background-color: violet;
+}
+
+/* Aside */
+.aside {
+  height: calc(100vh - 102px);
+  width: 10%;
+  min-width: 30px;
+  background-color: blue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aside ul,
+.aside ul a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.aside ul li {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
 
 /* Menu */
 .menu {
-  width: 100%;
   height: 120px;
   background-color: aqua;
   padding: 20px;
-  float: right;
 }
 
 .menu .container-fluid {
@@ -42,9 +52,9 @@ main {
   height: 80px;
 }
 
-/* Content */
-
-main .container-fluid {
-  background-color: violet;
-  height: 500px;
+.ap-container {
+  height: calc(100vh - 102px);
+  width: 100%;
+  overflow: scroll; 
 }
+/* Content */
