@@ -1,10 +1,10 @@
 /* GENERAL */
 
-[class^='col'] {
+/*[class^='col'] {
   background-color: green;
   min-height: 50px;
   border: 1px solid;
-}
+}*/
 
 header {
   padding: 20px;
@@ -16,7 +16,7 @@ main {
 
 /* MAIN */
 main .container-fluid {
-  background-color: violet;
+ 
 }
 
 /* Aside */
@@ -74,7 +74,7 @@ main .container-fluid {
 }
 
 .content {
-  background-color: aqua;
+ 
 }
 
 .content .title {
@@ -87,4 +87,10 @@ main .container-fluid {
 .ap-avatar {
   width: 40px;
   margin-right: 10px;
+}
+
+/* Graphic */
+
+.graphic .chart {
+  width: 90%;
 }
