@@ -48,6 +48,11 @@ header .light-logo {
   height: calc(100vh - 200px);
 }
 
+/* Table */
+.table tr td:first-child {
+  width: 60%;
+}
+
 /* Menu */
 .ap-container {
   height: calc(100vh - 102px);
