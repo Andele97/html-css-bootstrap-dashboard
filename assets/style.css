@@ -29,8 +29,8 @@ header .light-logo {
 .aside {
   background-image: url(../assets/img/sidebar-bg.png);
   height: calc(100vh - 102px);
-  width: 10%;
-  min-width: 30px;
+  width: 8%;
+  min-width: 60px;
   padding: 20px;
   background-color: #051E34;
   font-family: 'Poppins', sans-serif;
