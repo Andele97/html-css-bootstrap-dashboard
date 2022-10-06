@@ -21,6 +21,10 @@ header .light-logo {
 }
 
 /* MAIN */
+.ap-avatar {
+  width: 40px;
+  margin-right: 10px;
+}
 /* Aside */
 .aside {
   background-image: url(../assets/img/sidebar-bg.png);
@@ -85,12 +89,6 @@ header .light-logo {
   border-bottom: 1px solid gray;
 }
 
-/* Table */
-
-.ap-avatar {
-  width: 40px;
-  margin-right: 10px;
-}
 
 /* Graphic */
 
