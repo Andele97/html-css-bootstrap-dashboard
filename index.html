@@ -108,16 +108,54 @@
           </div>
         </div>
         <div class="container">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-          </form>
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                  <input type="text" class="form-control" id="indirizzo" aria-describedby="emailHelp">
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="mb-3">
+                      <label for="cittá" class="form-label">Cittá</label>
+                      <input type="text" class="form-control" id="cittá" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <label for="stato" class="form-label">Stato</label>
+                    <select class="form-select" aria-label="Default select example" id="stato">
+                      <option selected>Scegli...</option>
+                      <option value="1">Italia</option>
+                      <option value="2">Svizzera</option>
+                      <option value="3">Austria</option>
+                    </select>
+                  </div>
+                  <div class="col-3">
+                    <div class="mb-3">
+                      <label for="cap" class="form-label">CAP</label>
+                      <input type="text" class="form-control" id="cap" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="formFile" class="form-label">Foto</label>
+                  <input class="form-control" type="file" id="formFile">
+                </div>                
+              </form>
+            
+          </div>  
         </div>  
       </div>
       <!-- OFF CANVAS -->
