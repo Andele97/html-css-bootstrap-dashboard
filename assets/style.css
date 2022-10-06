@@ -14,11 +14,13 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
-/* MAIN */
-main .container-fluid {
- 
+/* HEADER */
+
+header .light-logo {
+  width: 50px;
 }
 
+/* MAIN */
 /* Aside */
 .aside {
   background-image: url(../assets/img/sidebar-bg.png);
@@ -71,10 +73,6 @@ main .container-fluid {
 /* Content */
 .contents .col-md-8 {
   padding: 10px;
-}
-
-.content {
- 
 }
 
 .content .title {
