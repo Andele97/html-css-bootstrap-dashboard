@@ -47,6 +47,12 @@ main .container-fluid {
 }
 
 /* Menu */
+.ap-container {
+  height: calc(100vh - 102px);
+  width: 100%;
+  overflow: scroll; 
+}
+
 .menu {
   background-color: #1A73E8;
   padding: 20px;
@@ -63,8 +69,22 @@ main .container-fluid {
   color: white;
 }
 /* Content */
-.ap-container {
-  height: calc(100vh - 102px);
-  width: 100%;
-  overflow: scroll; 
+.contents .col-md-8 {
+  padding: 10px;
+}
+
+.content {
+  background-color: aqua;
+}
+
+.content .title {
+  padding: 20px 25px;
+  border-bottom: 1px solid gray;
+}
+
+/* Table */
+
+.ap-avatar {
+  width: 40px;
+  margin-right: 10px;
 }
