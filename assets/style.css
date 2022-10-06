@@ -44,7 +44,7 @@ header .light-logo {
   font-size: 1.3em;
 }
 
-.aside .row {
+.aside .row:first-child {
   height: calc(100vh - 200px);
 }
 
